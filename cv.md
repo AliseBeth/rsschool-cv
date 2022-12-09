@@ -25,3 +25,5 @@ I learned Python, have create some telegram bots both for fun and for my job. I 
 * **email** elizaveta.05031996@yandex.ru
 * **github** [AliseBeth](https://github.com/AliseBeth)
 * **discord** AliseBeth#9222
+ 
+ :relaxed:
