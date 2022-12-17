@@ -1,3 +1,11 @@
-.header {
-	top:20px;
+
+body {
+    display: table;
+    margin: auto;
 }
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
