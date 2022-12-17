@@ -6,7 +6,8 @@ body {
 }
 .unmarkered{
 	display: flex;
-    justify-content: center;	
+    justify-content: center;
+	list-style-type: none;
 }
 
 .unmarkered li a {
@@ -15,27 +16,85 @@ body {
 }
 
 .unmarkered.first{
-	background-color: #d6d4d4;
+	background-color: #997070;
+	
 }
 
 .unmarkered.last{
-	background-color:#45433b;
-
+	background-color:#4d182a;
 }
 
 .unmarkered.first li{
-	
 	font-size: 15px;
 	font-weight: 900;
-	padding: 1% 3% 1% 3%;	
-	list-style-type: none;
-	
+	padding: 1% 3% 1% 3%;			
 }
 
 .unmarkered.last li{
 	font-size: 15px;
-	padding: 1.5% 15% 0 15%;
-	list-style-type: none;
-	color: white;
-		
+	padding: 1.5% 15% 2% 15%;
+	color: white;		
 }
+
+.first-line{
+	display: flex;
+	
+	margin: 2% 1%;
+}
+
+.block-one{
+	margin: 1% 0% 0% 3%;
+
+}
+
+h1{
+	font-size: 60px;
+	margin-bottom: 10px;
+	margin-top:0%;
+}
+
+
+.pretty-courses li a{
+	text-decoration: none;
+	color: #b00726;
+	
+}
+
+.code-center{
+	padding: 0.5% 25% 0% 25%;
+	background-color: #d9b7b7;
+	font-size: 15px;
+	
+}
+
+#code{
+	margin: 0% 1% 1% 2%;
+}
+
+
+
+.pretty-contacts{
+	background-color: #f1d6d6;
+	padding: 0% 2% 2% 2%;
+	width: 470px
+}
+
+.pretty-skills{
+	padding: 0% 2% 2% 2%;
+	width: 200px
+}
+
+.first-line.apart{
+	margin: 5% 0% 2% 0%;
+}
+
+.second-line{
+	display: flex;
+	margin: 2%;
+
+}
+
+.pretty-languages{
+	margin:0% 1% 0% 10%
+}
+

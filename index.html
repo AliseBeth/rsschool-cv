@@ -24,92 +24,102 @@
     </header>
 
     <main>
+        <div class="first-line">
+            <img class='my-photo' src="/assets/img/my-photo.jpg" height="600" alt="the most beautiful photo in the world">   
+            <section class="block-one">
+                <h1 id="name"> Elizabeth Akimova</h1>
+                <div>
+                    <p>I'm 26. Now I work as support service specialist. 
+                    I learned Python and have created some telegram bots both for fun and for my job. I had an experience of creating 
+                    some additional functionality to the HelpDesk system reports using Selenium. 
+                    Also at my work I've been making changes to the layouts.</p>
+                    <p>At RS School I want to improve my skills and become a professional specialist of the area I'm interested in.</p>
+                </div> 
+                <div class="first-line apart">
+                    <div class="pretty-contacts">
+                        <h2 id="contacts">Contacts</h2>
+                        <div class="contacts">
+                            
+                            <p><img src="/assets/img/location.png" height="15"> St.Petersburg, Russia</p>
+                            <p><img src="/assets/img/email.png" height="15"> elizaveta.05031996@yandex.ru</p>
+                            <p><img src="/assets/img/git.png" height="15"> AliseBeth</p>
+                            <p><img src="/assets/img/discord.png" height="15"> AliseBeth#9222</p>
+                            
+                        </div>
+                    </div>
+                    <div class='pretty-skills'>
+                        <h2 id="skills"> Skills</h2>
+                        <div>
+                            <ul>
+                                <li>Python</li>
+                                <li>Selenium</li>
+                                <li>PyCharm</li>
+                                <li>Git/GitHub</li>
+                                <li>Photoshop/Illustrator</li>
+                            </ul>
+                        </div>
+                    </div>
         
-        <img src="/assets/img/my-photo.jpg" height="350" alt="the most beautiful photo in the world">   
-        <section>
-            <h1 id="name"> Elizabeth Akimova</h1>
-            <div>
-                <p>I'm 26. Now I work as support service specialist. 
-                I learned Python and have created some telegram bots both for fun and for my job. I had an experience of creating 
-                some additional functionality to the HelpDesk system reports using Selenium. 
-                Also at my work I've been making changes to the layouts.</p>
-                <p>At RS School I want to improve my skills and become a professional specialist of the area I'm interested in.</p>
-            </div> 
-        </section>
+                    <div class="pretty-courses">
+                        <h2 id="courses">Courses</h2>
+                        <div>
+                            <ul>
+                                <li>Bioinformatics Institute - <a href="https://stepik.org/course/67/info">Программирование на Python</a></li>
+                                <li>G-Core QA - <a href="https://stepik.org/course/61272/info">Основы тестирования игр</a></li>
+                                <li>Stepik - <a href="https://stepik.org/course/575/info">Автоматизация тестирования с помощью Selenium и Python</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </section>
+        </div>
 
-        <section>
-            <h2 id="contacts">Contacts</h2>
-            <div>
-                <ul>
-                    <li>St.Petersburg, Russia</li>
-                    <li>email: elizaveta.05031996@yandex.ru</li>
-                    <li>github: AliseBeth</li>
-                    <li>discord: AliseBeth#9222</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2 id="skills"> Skills</h2>
-            <div>
-                <ul>
-                    <li>Python</li>
-                    <li>Selenium</li>
-                    <li>PyCharm</li>
-                    <li>Git/GitHub</li>
-                    <li>Photoshop/Illustrator/Premiere Pro</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2 id="courses">Courses</h2>
-            <div>
-                <ul>
-                    <li>Bioinformatics Institute - <a href="https://stepik.org/course/67/info">Программирование на Python</a></li>
-                    <li>G-Core QA - <a href="https://stepik.org/course/61272/info">Основы тестирования игр</a></li>
-                    <li>Stepik - <a href="https://stepik.org/course/575/info">Автоматизация тестирования с помощью Selenium и Python</a></li>
-                </ul>
-            </div>
-        </section>
             
-        <section>
-            <h2 id="code">Code</h2>
+        <section class="center">
             <div>
-                <pre>
-                    <code>  
-new_window = browser.window_handles[1]
-browser.switch_to.window(new_window)
+                <h2 id="code">Code</h2>
+                <div class="code-center">
+                    <pre>
+                        <code>  
+    new_window = browser.window_handles[1]
+    browser.switch_to.window(new_window)
 
-request_id = browser.find_element(By.ID, "request-id").text
-jour_buttom = browser.find_element(By.ID, "history-tab").click()
+    request_id = browser.find_element(By.ID, "request-id").text
+    jour_buttom = browser.find_element(By.ID, "history-tab").click()
 
-time_first = browser.find_element(By.XPATH, "//*[text() = 'Создано'] //..//..//..//.. /div").text
-atr_date_first = browser.find_element(By.XPATH, "//*[text() = 'Создано'] //..//..//..//.. /div")
-date_first = atr_date_first.get_attribute('title')
+    time_first = browser.find_element(By.XPATH, "//*[text() = 'Создано'] //..//..//..//.. /div").text
+    atr_date_first = browser.find_element(By.XPATH, "//*[text() = 'Создано'] //..//..//..//.. /div")
+    date_first = atr_date_first.get_attribute('title')
 
-print(request_id, ';', date_first, ' ', time_first)
-                    </code>
-                </pre>
+    print(request_id, ';', date_first, ' ', time_first)
+                        </code>
+                    </pre>
+                </div>
             </div>
         </section>
 
-        <section>
-            <h2 id="education">Education</h2>
-            <div>
-                <p>Saint Petersburg State University - Faculty of Journalism</p>
+        <section class="second-line">
+            <div class="pretty-education">
+                <h2 id="education">Education</h2>
+                <div>
+                    <p>Saint Petersburg State University - Faculty of Journalism</p>
+                </div>
+            </div>
+            <div class="pretty-languages">
+                <h2 id="languages">Languages</h2>
+                <div>
+                    <ul>
+                        <li>Russian - Native Speaker</li>
+                        <li>English - Upper Intermediate</li>
+                    </ul>
+                </div>
             </div>
         </section>
-        
-        <section>
-            <h2 id="languages">Languages</h2>
-            <div>
-                <ul>
-                    <li>Russian - Native Speaker</li>
-                    <li>English - Upper Intermediate</li>
-                </ul>
-            </div>
-        </section>
+
+
+
     </main>
 
     <footer>
