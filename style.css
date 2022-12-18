@@ -1,0 +1,151 @@
+body {
+    display: table-cell;
+    vertical-align: middle;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:#2c2123;
+	
+}
+.unmarkered{
+	display: flex;
+    justify-content: center;
+	list-style-type: none;
+	
+}
+
+.unmarkered li a {
+	text-decoration: none;
+	color: white;
+}
+
+.unmarkered.first{
+	background-color: #997070;	
+}
+
+nav{
+	position: fixed;	
+	width: 100%;
+	margin-top: -17px;	
+}
+
+.unmarkered.last{
+	background-color:#4d182a;
+}
+
+footer{
+	margin-bottom: -17px;
+}
+
+.unmarkered.first li{
+	font-size: 15px;
+	font-weight: 900;
+	padding: 1% 3% 1% 3%;			
+}
+
+.unmarkered.last li{
+	font-size: 15px;
+	padding: 1.5% 15% 3% 15%;
+	color: white;		
+}
+
+.first-line{
+	display: flex;
+	
+	margin: 5% 1% 2%;
+}
+
+.block-one{
+	margin: 1% 0% 0% 3%;
+
+}
+
+h1{
+	font-size: 60px;
+	margin-bottom: 10px;
+	margin-top:0%;
+}
+
+
+.pretty-courses li a{
+	
+	text-decoration: none;
+	color: #b00726;	
+}
+
+.pretty-courses{
+	padding: 2.5% 0% 2% 2%;	
+}
+
+#courses{
+	padding-top: 70px;
+	margin-top: -70px;
+}
+
+.code-center{
+	padding: 0.5% 25% 0% 25%;
+	background-color: #d9b7b7;
+	font-size: 15px;
+	
+}
+
+#code{
+	margin: 0% 1% 1% 2%;
+	padding-top: 70px;
+	margin-top: -70px;
+}
+
+
+
+.pretty-contacts {
+	background-color: #f1d6d6;
+	padding: 2.5% 0% 2% 2%;
+	width: 470px;
+}
+
+#contacts{
+	padding-top: 70px;
+	margin-top: -70px;
+	background-clip:content-box;
+}
+
+.pretty-skills {
+	padding: 2.5% 2% 2% 2%;
+	width: 200px;
+}
+
+#skills{
+	padding-top: 70px;
+	margin-top: -70px;
+	
+}
+
+.first-line.apart{
+	margin: 5% 0% 2% 0%;
+}
+
+.second-line{
+	display: flex;
+	margin: 2% 2% 8% ;
+
+}
+
+.pretty-languages{
+	margin:0% 1% 0% 10%;
+}
+
+#languages{
+	padding-top: 70px;
+	margin-top: -70px;
+}
+#education{
+	padding-top: 70px;
+	margin-top: -70px;
+}
+
+.background{
+	width: 600px;
+	position: relative;
+	left: 80%;
+	margin-top: -35%;
+	margin-bottom: -4%;
+	margin-left: -16%;
+}
