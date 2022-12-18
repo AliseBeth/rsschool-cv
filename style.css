@@ -3,11 +3,13 @@ body {
     vertical-align: middle;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color:#2c2123;
+	
 }
 .unmarkered{
 	display: flex;
     justify-content: center;
 	list-style-type: none;
+	
 }
 
 .unmarkered li a {
@@ -16,12 +18,21 @@ body {
 }
 
 .unmarkered.first{
-	background-color: #997070;
-	
+	background-color: #997070;	
+}
+
+nav{
+	position: fixed;	
+	width: 100%;
+	margin-top: -17px;	
 }
 
 .unmarkered.last{
 	background-color:#4d182a;
+}
+
+footer{
+	margin-bottom: -17px;
 }
 
 .unmarkered.first li{
@@ -32,14 +43,14 @@ body {
 
 .unmarkered.last li{
 	font-size: 15px;
-	padding: 1.5% 15% 2% 15%;
+	padding: 1.5% 15% 3% 15%;
 	color: white;		
 }
 
 .first-line{
 	display: flex;
 	
-	margin: 2% 1%;
+	margin: 5% 1% 2%;
 }
 
 .block-one{
@@ -55,9 +66,18 @@ h1{
 
 
 .pretty-courses li a{
-	text-decoration: none;
-	color: #b00726;
 	
+	text-decoration: none;
+	color: #b00726;	
+}
+
+.pretty-courses{
+	padding: 2.5% 0% 2% 2%;	
+}
+
+#courses{
+	padding-top: 70px;
+	margin-top: -70px;
 }
 
 .code-center{
@@ -69,19 +89,33 @@ h1{
 
 #code{
 	margin: 0% 1% 1% 2%;
+	padding-top: 70px;
+	margin-top: -70px;
 }
 
 
 
-.pretty-contacts{
+.pretty-contacts {
 	background-color: #f1d6d6;
-	padding: 0% 2% 2% 2%;
-	width: 470px
+	padding: 2.5% 0% 2% 2%;
+	width: 470px;
 }
 
-.pretty-skills{
-	padding: 0% 2% 2% 2%;
-	width: 200px
+#contacts{
+	padding-top: 70px;
+	margin-top: -70px;
+	background-clip:content-box;
+}
+
+.pretty-skills {
+	padding: 2.5% 2% 2% 2%;
+	width: 200px;
+}
+
+#skills{
+	padding-top: 70px;
+	margin-top: -70px;
+	
 }
 
 .first-line.apart{
@@ -90,11 +124,28 @@ h1{
 
 .second-line{
 	display: flex;
-	margin: 2%;
+	margin: 2% 2% 8% ;
 
 }
 
 .pretty-languages{
-	margin:0% 1% 0% 10%
+	margin:0% 1% 0% 10%;
 }
 
+#languages{
+	padding-top: 70px;
+	margin-top: -70px;
+}
+#education{
+	padding-top: 70px;
+	margin-top: -70px;
+}
+
+.background{
+	width: 600px;
+	position: relative;
+	left: 80%;
+	margin-top: -35%;
+	margin-bottom: -4%;
+	margin-left: -16%;
+}
