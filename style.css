@@ -149,3 +149,8 @@ h1{
 	margin-bottom: -4%;
 	margin-left: -16%;
 }
+
+#name{
+	padding-top: 70px;
+	margin-top: -70px;
+}
