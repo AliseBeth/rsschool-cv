@@ -110,3 +110,8 @@ footer ul {
 footer ul a {
     color: white;
 }
+footer ul li {
+    display: flex;
+    justify-content:center;
+    margin:auto 0
+}
