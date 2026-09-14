@@ -1,5 +1,7 @@
 # __Elizabeth Akimova__
 
+![me](myphoto.jpg "me")
+
 ## Contacts
 
 * telegram: @alisekingsley
