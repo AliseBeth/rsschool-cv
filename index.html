@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600;700&display=swap" rel="stylesheet"> 
+
     <title>CV</title>
 </head>
 <body>
@@ -26,7 +27,7 @@
     </header>
 
     <main>
-        <section class="contacts">
+        <section id="contacts" class="contacts">
             <div>
                 <h1>Elizabeth Akimova</h1>
                 <img src="myphoto.jpg" alt='me'>
@@ -42,7 +43,7 @@
             </div>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
             <div>
                 <h2>About me</h2>
                 <p>I’m 30. Now I work as graphic designer.<br>
@@ -51,7 +52,7 @@
             </div>
         </section>
 
-        <section class="skills">
+        <section id="skills" class="skills">
             <h2>Skills</h2>
             <ul>
                 <li>Python</li>
@@ -64,25 +65,25 @@
             </ul>
         </section>
 
-        <section class="code">
+        <section id="code" class="code">
             <h2>Code</h2>
             <pre>
                 <code>
-                    function mergeArrays(arr1, arr2) {
-  let newArr = arr1.concat(arr2);
+function mergeArrays(arr1, arr2) {
+    let newArr = arr1.concat(arr2);
   
-  function sorting(a, b) {
+    function sorting(a, b) {
     return a - b;
-  };
+    };
   
-  let result = newArr.sort(sorting);
-  let final = [];
-  for (let i = 0; i < result.length; i++) {
-    if (result[i] === result[i + 1]){
-      continue;
-    } else {
-      final = final.concat(result[i]);
-    }
+    let result = newArr.sort(sorting);
+    let final = [];
+    for (let i = 0; i < result.length; i++) {
+        if (result[i] === result[i + 1]){
+            continue;
+        } else {
+            final = final.concat(result[i]);
+        }
   }
     
   return final; 
@@ -91,7 +92,7 @@
             </pre>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2>Projects</h2>
             <ul>
                 <li><a href='https://github.com/AliseBeth/HelpDeskBot'>HelpDeskBot</a> - telegram bot for HelpDesk system</li>
@@ -99,7 +100,7 @@
             </ul>
         </section>
 
-        <section class="education">
+        <section id="education" class="education">
             <h2>Education</h2>
             <div>
                 <div>
@@ -118,10 +119,10 @@
             </div>
         </section>
 
-        <section class="languages">
+        <section id="languages" class="languages">
             <h2>Languages</h2>
             <ul>
-                <li>Russian - native</li>
+                <li>Russian - Native</li>
                 <li>English - Upper Intermediate</li>
             </ul>
         </section>
@@ -131,7 +132,7 @@
         <ul class="unmarkered last">
             <li><a href='https://github.com/AliseBeth'>GitHub</a></li>
             <li>2026</li>
-            <li><a href='https://rs.school/js/'> <img src='/assets/img/icon-school.png' 
+            <li><a href='https://app.rs.school/course/student/dashboard?course=js-fe-2026Q3'> <img src='logo-rsschool3.png' 
                 alt="The Rolling Scopes School" width="100" ></a> </li>
         </ul>
     </footer>
