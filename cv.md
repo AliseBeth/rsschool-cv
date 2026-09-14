@@ -1,12 +1,13 @@
-Elizabeth Akimova
-Contacts
+# __Elizabeth Akimova__
 
-    telegram @alisekingsley
-    email elizaveta.05031996@yandex.ru
-    github AliseBeth
-    discord AliseBeth
+## Contacts
 
-About me
+* telegram: @alisekingsley
+* email: elizaveta.05031996@yandex.ru
+* github: AliseBeth
+* discord: AliseBeth
+
+## About me
 
 I’m 30. Now I work as support service specialist.
 
@@ -14,18 +15,19 @@ I learned Python and have created some telegram bots both for fun and for my job
 
 At RS School I want to improve my skills and become a professional specialist of the area I’m interested in. I had run for this course in 2023 but hadn't finished it, so now I want to try my best!
 
-Skills
+## Skills
 
-    Python
-    Selenium
-    PyCharm
-    Git
-    VS Code
-    JavaScript
+*Python* <br>
+*Selenium*<br>
+*PyCharm*<br>
+*Git*<br>
+*VS Code*<br>
+*JavaScript*
 
 
-Code
+## Code
 
+```
 function mergeArrays(arr1, arr2) {
   let newArr = arr1.concat(arr2);
   
@@ -43,27 +45,30 @@ function mergeArrays(arr1, arr2) {
     }
   }
     
-  return final;
-};
+  return final; 
+}; 
+```
 
 
 
-Projects
+## Projects
 
-HelpDesk Telegram Bot made on Python https://github.com/AliseBeth/HelpDeskBot
-A website with examples of the company’s work https://github.com/AliseBeth/forlab-site
+[HelpDesk Telegram Bot made on Python](https://github.com/AliseBeth/HelpDeskBot) <br>
+[A website with examples of the company’s work](https://github.com/AliseBeth/forlab-site)
 
 
-Education
+## Education
 
-    Saint Petersburg State University
-        Faculty of Journalism
-    Courses
-        Bioinformatics Institute - Программирование на Python
-        G-Core QA - Основы тестирования игр
-        Stepik - Автоматизация тестирования с помощью Selenium и Python
+### Saint Petersburg State University ### 
+*Faculty of Journalism*
+### Courses ###
+*Bioinformatics Institute - Программирование на Python <br>
+G-Core QA - Основы тестирования игр<br>
+Stepik - Автоматизация тестирования с помощью Selenium и Python*
 
-Languages
+## Languages
 
-    Russian - Native
-    English - Upper Intermediate
+```
+Russian - Native 
+English - Upper Intermediate
+```
