@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600;700&display=swap" rel="stylesheet"> 
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul class="unmarkered">
+                <li><a href='#contacts'>Contacts</a></li>
+                <li><a href='#about'>About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacts">
+            <div>
+                <h1>Elizabeth Akimova</h1>
+                <img src="myphoto.jpg" alt='me'>
+            </div>
+            <div>
+                <h2>Contacts</h2>
+                <ul>
+                    <li>telegram: @alisekingsley</li>
+                    <li>email: elizaveta.05031996@yandex.ru</li>
+                    <li>github: AliseBeth</li>
+                    <li>discord: AliseBeth</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about">
+            <div>
+                <h2>About me</h2>
+                <p>I’m 30. Now I work as graphic designer.<br>
+                    I learned Python and have created some telegram bots both for fun and for my job. I had an experience of creating some additional functionality to the HelpDesk system reports using Selenium. Also at my work I’ve been making changes to the layouts.<br>
+                    At RS School I want to improve my skills and become a professional specialist of the area I’m interested in. I had run for this course in 2023 but hadn't finished it, so now I want to try my best!</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Selenium</li>
+                <li>PyCharm</li>
+                <li>Git</li>
+                <li>VS Code</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section class="code">
+            <h2>Code</h2>
+            <pre>
+                <code>
+                    function mergeArrays(arr1, arr2) {
+  let newArr = arr1.concat(arr2);
+  
+  function sorting(a, b) {
+    return a - b;
+  };
+  
+  let result = newArr.sort(sorting);
+  let final = [];
+  for (let i = 0; i < result.length; i++) {
+    if (result[i] === result[i + 1]){
+      continue;
+    } else {
+      final = final.concat(result[i]);
+    }
+  }
+    
+  return final; 
+};     
+                </code>
+            </pre>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href='https://github.com/AliseBeth/HelpDeskBot'>HelpDeskBot</a> - telegram bot for HelpDesk system</li>
+                <li><a href='https://github.com/AliseBeth/forlab-site'>Forlab Site</a> - a website with examples of the company’s work</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div>
+                <div>
+                    <h3>Saint Petersburg State University</h3>
+                    <p>Faculty of Journalism</p>
+                </div>
+                 <div>
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>Bioinformatics Institute - Программирование на Python</li>
+                        <li>G-Core QA - Основы тестирования игр</li>
+                        <li>Stepik - Автоматизация тестирования с помощью Selenium и Python</li>
+                        <li>Rolling Scopes School - Frontend, Stage 0</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian - native</li>
+                <li>English - Upper Intermediate</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="unmarkered last">
+            <li><a href='https://github.com/AliseBeth'>GitHub</a></li>
+            <li>2026</li>
+            <li><a href='https://rs.school/js/'> <img src='/assets/img/icon-school.png' 
+                alt="The Rolling Scopes School" width="100" ></a> </li>
+        </ul>
+    </footer>
+</body>
+</html>
